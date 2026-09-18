@@ -1,0 +1,86 @@
+body {
+    background-color: #1c1d20;
+    color: white;
+    margin: 0;
+}
+.danh-sach-muc {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    gap: 10px;
+}
+.lien-ket-muc {
+    text-decoration: none;
+    color: #BCBBBF;
+}
+.dang-chon {
+    color: white;
+    background-color: #4C4051;
+}
+.muc {
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.logo {
+    width: 100px;
+}
+.avatar {
+    width: 100px;
+    border-radius: 100px;
+}
+.muc:hover {
+    background-color: #4C4051;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    align-items: center;
+    background-color: #1c1d20;
+}
+.banner {
+    width: 90%;
+    margin: 20px auto;
+}
+.banner-img {
+    width: 100%;
+    border-radius: 20px;
+}
+.danh-sach-phim {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.phim {
+    width: 20%;
+    height: 200px; 
+    border-radius: 10px;
+}
+.phim img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.the-loai {
+    width: 90%;
+    height: 20vh;
+    margin: 10px auto;
+}
+.danh-sach-phim1{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px auto;
+}
+.phim1{
+    width: 90%;
+    height: 20vh;
+    border-radius: 50%; 
+    margin: 10px auto;
+}
+.phim1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; 
+}
