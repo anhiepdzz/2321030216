@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Việt Nam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- đầu trang -->
+    <header>
+        <!-- danh mục -->
+         <nav class="danh-muc">
+            <ul class="danh-sach-muc">
+                <img class="logo" src="net.jpg" alt="">
+                <li class="muc dang-chon"><a class="lien-ket-muc dang-chon" href="#">Trang Chủ</a></li>
+                <li class="muc"><a class="lien-ket-muc" href="#">Nhân Vật</a></li>
+                <li class="muc"><a class="lien-ket-muc" href="#">Series</a></li>
+                <li class="muc"><a class="lien-ket-muc" href="#">Phim</a></li>
+                <li class="muc"><a class="lien-ket-muc" href="#">Mới & Phổ Biến</a></li>
+                <li class="muc"><a class="lien-ket-muc" href="#">Netflix Của Tôi</a></li>
+                <li class="muc"><a class="lien-ket-muc" href="#">Duyệt Tin Theo Ngôn Ngữ</a></li>
+            </ul>
+         </nav>
+         <div class="chuc-nang">
+            <img class="avatar" src="treem.jpg" alt="">
+         </div>
+    </header>
+    <!-- nội dung chính của trang -->
+    <main>
+        <div class="banner">
+            <img id="anhbanner" class="banner-img" src="cho.jpg" alt="">
+        </div>
+        <!-- danh sách phim -->
+        <div class="the-loai">
+            <div class="ten-the-loai">
+                <h3>Phim Hài Hước</h3>
+            </div>
+            <div class="danh-sach-phim">
+                <div class="phim">
+                    <img id="anh1" src="hh1.webp" onclick="doianh(1)" alt="">
+                </div>
+                <div class="phim">
+                    <img id="anh2"  src="hh2.webp" onclick="doianh(2)" alt="">
+                </div>
+                <div class="phim">
+                    <img id="anh3" src="hh3.webp" onclick="doianh(3)" alt="">
+                </div>
+                <div class="phim">
+                    <img id="anh4" src="hh4.webp" onclick="doianh(4)" alt="">
+                </div>
+                <div class="phim">
+                    <img id="anh5"  src="hh5.webp" onclick="doianh(5)" alt="">
+                </div>
+            </div>
+            <div class="ten-the-loai">
+                <h3>Phim Hành Động</h3>
+            </div>
+            <div class="danh-sach-phim">
+                <div class="phim">
+                    <img id="anh6" src="hd1.webp" onclick="doianh(6)" alt="">
+                </div>
+                <div class="phim">
+                    <img id="anh7" src="hd2.webp" onclick="doianh(7)" alt="">
+                </div>
+                <div class="phim">
+                    <img id="anh8" src="hd3.webp" onclick="doianh(8)" alt="">
+                </div>
+                <div class="phim">
+                    <img id="anh9" src="hd4.webp" onclick="doianh(9)" alt="">
+                </div>
+                <div class="phim">
+                    <img id="anh10" src="hd5.webp" onclick="doianh(10)" alt="">
+                </div>
+            </div>
+            <div class="ten-the-loai">
+                <h3>Phim Động Vật</h3>
+            </div>
+            <div class="danh-sach-phim">
+                <div class="phim">
+                    <img id="anh11" src="dv1.webp" onclick="doianh(11)" alt="">
+                </div>
+                <div class="phim">
+                    <img id="anh12" src="dv2.webp" onclick="doianh(12)" alt="">
+                </div>
+                <div class="phim">
+                    <img id="anh13"  src="dv3.webp" onclick="doianh(13)" alt="">
+                </div>
+                <div class="phim">
+                    <img id="anh14" src="dv4.webp" onclick="doianh(14)" alt="">
+                </div>
+                <div class="phim">
+                    <img id="anh15" src="dv5.webp" onclick="doianh(15)" alt="">
+                </div>
+            </div>
+            <div class="ten-the-loai">
+                <h3>Phim Hoạt Hình</h3>
+            </div>
+            <div class="danh-sach-phim">
+                <div class="phim">
+                    <img id="anh16" src="hhinh1.webp" onclick="doianh(16)" alt="">
+                </div>
+                <div class="phim">
+                    <img id="anh17" src="hhinh2.webp" onclick="doianh(17)" alt="">
+                </div>
+                <div class="phim">
+                    <img id="anh18" src="hhinh3.webp" onclick="doianh(18)" alt="">
+                </div>
+                <div class="phim">
+                    <img id="anh19" src="hhinh4.webp" onclick="doianh(19)" alt="">
+                </div>
+                <div class="phim">
+                    <img id="anh20" src="hhinh5.webp" onclick="doianh(20)" alt="">
+                </div>
+            </div>
+            <div class="ten-nhan-vat">
+                <h3>Nhân Vật</h3>
+                <div class="icon">
+                    <div class="nhan-vat">
+                        <img id="anh21" src="lg1.webp" onclick="doianh(21)" alt="">
+                    </div>
+                    <div class="nhan-vat">
+                        <img id="anh22" src="lg2.webp" onclick="doianh(22)" alt="">
+                    </div>
+                    <div class="nhan-vat">
+                        <img id="anh23" src="lg3.webp" onclick="doianh(23)" alt="">
+                    </div>
+                    <div class="nhan-vat">
+                        <img id="anh24" src="lg4.webp" onclick="doianh(24)" alt="">
+                    </div>
+                    <div class="nhan-vat">
+                        <img id="anh25" src="lg5.webp" onclick="doianh(25)" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+     <footer>
+    <!-- chân trang -->
+     <div class="lien-ket-chan-trang">
+            <a href="#">Mô tả âm thanh</a>
+            <a href="#">Trợ giúp</a>
+            <a href="#">Thẻ quà tặng</a>
+
+            <a href="#">Điều khoản sử dụng</a>
+            <a href="#">Quyền riêng tư</a>
+            <a href="#">Tùy chọn cookie</a>
+
+            <a href="#">Thông tin doanh nghiệp</a>
+            <a href="#">Liên hệ với chúng tôi</a>
+            <a href="#">Trung tâm truyền thông</a>
+
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

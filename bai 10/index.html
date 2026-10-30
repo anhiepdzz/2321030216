@@ -17,52 +17,77 @@
         }
         .phai{
             width: 25%;
-            height: 500px;
-            background-color: red;
+            border: 1px solid grey;
+            border-radius: 20px;
             text-align: center;
+            padding: 10px;
         }
         .video{
             width: 90%;
             height: 400px;
             background-color: black;
             border-radius: 20px;
+
         }
         h1{
             text-align: center;
         }
         .bai-hat{
             width: 95%;
-            height: 80px;
-            margin: auto;
+            height: 90px;
+            margin: 10px auto;
             background-color: antiquewhite;
             display: flex;
             align-items: center;
         }
+        .bai-hat:hover{
+            background-color: grey;
+        }
         img{
-            width: 25%;
-            margin-right: 10px;
+               width: 40%;
+               height: 90px;
+               margin-right: 10px;
         }
         p{
-            width: 75px;
+            flex: 1;
+            width: auto;
+            margin: 0;
+            padding: 5px;
+            text-align: left;
         }
+        
     </style>
 </head>
 <body>
     <main>
         <div class="trai">
-            <div class="video">
-
-            </div>
+            <!-- <div class="video">
+            </div> -->
+            <iframe id="video" width="90%" height="400" src="https://www.youtube.com/embed/c_5HRhofl7o" allowfullscreen>
+</iframe>
         </div>
         <div class="phai">
             <h1>Danh Sách</h1>
             <div class="danh-sach">
-                <div class="bai-hat">
-                    <img class="anh-bai" src="mattrang.png" alt="">
-                    <p>tên bài hát</p>
+                <div class="bai-hat" onclick="chonbai(1)">
+                   <img class="anh-bai" src="houselak1.avif" alt="">
+                   <p>Houselak trái tim vỡ vụn</p>
+                </div>
+                <div onclick="chonbai(2)" class="bai-hat">
+                    <img class="anh-bai" src="pc2.avif" alt="">
+                    <p>PHONG CHÂU NGÀY VẮNG EM VER 4 - AN THUYEN MIX</p>
+                </div>
+                <div onclick="chonbai(3)" class="bai-hat">
+                    <img class="anh-bai" src="nst3.avif" alt="">
+                    <p>NST TRÔI 1H - TD MIX</p>
+                </div>
+                <div onclick="chonbai(4)" class="bai-hat">
+                    <img class="anh-bai" src="nl4.avif" alt="">
+                    <p>NHẠC LỌT ĐAU VÍ</p>
                 </div>
             </div>
         </div>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
